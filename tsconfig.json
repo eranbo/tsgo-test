@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "src",
+    "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
+    "module": "commonjs",
+    "target": "ES2023",
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    "declarationMap": true,
+    "composite": true,
+    "forceConsistentCasingInFileNames": true,
+    "experimentalDecorators": true,
+    "noImplicitThis": true,
+    "strictBindCallApply": true,
+    "skipLibCheck": true
+  },
+  "include": [],
+  "tsBuildInfoFile": "./dist/tsconfig.tsbuildinfo",
+  "references": [
+    {
+      "path": "service/tsconfig.json"
+    },
+    {
+      "path": "module/tsconfig.json"
+    }
+  ]
+}
